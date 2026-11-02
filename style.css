@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "mukta" sans-serif;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 25px;
+}
+
+.cabecalho img {
+    width: 50px;
+
+}
+
+.cabecalho a {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.cabecalho a:hover {
+    color: #c51111;
+    transition: 0.5s ease-in-out;
+}
+
+
+.container-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 85vh;
+}
+
+.div1 {
+    width: 40%;
+}
+
+
+.logo {
+    width: 350px;
+}
+
+.mario-ludi {
+    height: 500px;
+}
+
+button {
+    background-color: #c51111;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+
+.container-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.container-mascara {
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.container-whatsapp {
+    position: fixed;
+    right: 11px;
+    bottom: 9px;
+}
+
+.container-whatsapp img {
+    width: 60px;
+}
+
+.container-whatsapp img:hover {
+    width: 63px;
+    transition: 0.5s;
+}
+
+.container-whatsapp a {
+    cursor: pointer;
+}
+
+form {
+    background-color: #ffffff;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    width: 350px;
+
+}
+
+form input,
+textarea {
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline-color: #18d80f;
+}
+
+form textarea {
+    height: 100px;
+    padding-top: 15px;
+}
