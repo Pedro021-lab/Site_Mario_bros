@@ -9,7 +9,7 @@ Site de uma empresa fictícia de serviços hidráulicos, inspirado no universo d
 
 ## 🔗 Acesse o site
 
-[Clique aqui para ver o projeto online](https://seu-usuario.github.io/site-mario/)
+[Clique aqui para ver o projeto online](https://pedro021-lab.github.io/Site_Mario_bros/)
 
 ## ✨ Funcionalidades
 
