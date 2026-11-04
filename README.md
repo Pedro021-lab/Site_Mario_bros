@@ -42,7 +42,7 @@ Site de uma empresa fictícia de serviços hidráulicos, inspirado no universo d
    ```
 2. Entre na pasta do projeto:
    ```bash
-   cd site_Mario_bros
+   cd Site_Mario_bros
    ```
 3. Abra o arquivo `index.html` no navegador.
 
